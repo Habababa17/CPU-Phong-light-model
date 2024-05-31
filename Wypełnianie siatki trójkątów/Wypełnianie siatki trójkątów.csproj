@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Wypełnianie_siatki_trójkątów</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CjClutter.ObjLoader.Loader">
+      <HintPath>lib\CjClutter.ObjLoader.Loader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
